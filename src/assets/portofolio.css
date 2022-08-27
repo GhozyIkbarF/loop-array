@@ -1,0 +1,16 @@
+.portofolio-wrapper{
+    width: 100%;
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+}
+.portofolio-container{
+    height: 700px;
+    width: 70%;
+    display: grid;
+    grid-template-areas: "satu dua tiga" 
+    "empat dua enam" "tujuh delapan enam";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
